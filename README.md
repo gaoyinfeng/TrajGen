@@ -5,11 +5,11 @@ Implementation of the [TrajGen][website_arxiv] and I-SIM based on [Interaction D
 [website_INTER]: http://www.interaction-dataset.com/
 
 <p align="left">
-<img width="45%" src="https://lh4.googleusercontent.com/mlpMTC__xIZz3sahf6U5pDVbKigOPW9H01S7gbTwsg8_l-jrVT_hTN8WdoGPS7jbHJ6HZkPkmceI_BBolY7B81SewH_KKJ1GzHnkHz0rcXKJTdW4n2IL1u3TN9e8dVKRwA=w1280">
+<img width="45%" src="https://github.com/gaoyinfeng/TrajGen/blob/main/gif/trajgen_1.gif">
 </p>
 
 <p align="right">
-<img width="45%" src="https://lh4.googleusercontent.com/mlpMTC__xIZz3sahf6U5pDVbKigOPW9H01S7gbTwsg8_l-jrVT_hTN8WdoGPS7jbHJ6HZkPkmceI_BBolY7B81SewH_KKJ1GzHnkHz0rcXKJTdW4n2IL1u3TN9e8dVKRwA=w1280">
+<img width="45%" src="https://github.com/gaoyinfeng/TrajGen/blob/main/gif/trajgen_2.gif">
 </p>
 
 
