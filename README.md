@@ -6,6 +6,9 @@ Implementation of the [TrajGen][website_arxiv] and I-SIM based on [Interaction D
 
 <img width="48%" src="https://github.com/gaoyinfeng/TrajGen/blob/main/gif/trajgen_1.gif"> <img width="48%" src="https://github.com/gaoyinfeng/TrajGen/blob/main/gif/trajgen_2.gif">
 
+- [Project website](https://sites.google.com/view/trajgen/)
+- [Research paper](https://arxiv.org/pdf/2203.16792.pdf)
+
 If you find this code useful, please reference in your paper:
 
 ```
