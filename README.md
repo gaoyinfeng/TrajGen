@@ -34,9 +34,22 @@ After build, run docker container and do port mapping, we use port 5557-5561 as 
 ```sh
 docker run -it -e DISPLAY -p 5557-5561:5557-5561 -v $path for TrajGen$:/home/developer/workspace/interaction-dataset-master -v /tmp/.X11-unix:/tmp/.X11-unix --user="$(id --user):$(id --group)" --name isim57 isim:latest bash
 ```
-
+Update dependencies:
+```sh
+sudo apt update
+sudo apt install python-tk #python2
+```
+Check wheather I-SIM can properly run:
+```sh
+cd interaction-dataset-master/python/interaction_gym/
+python main_visualize_data.py "DR_USA_Intersection_EP0"
+```
 
 ### 2. Dependencies for TrajGen
+TrajGen requires python3(>=3.7) and tensorflow-gpu(>=1.14), as for other packages, please run:
+```sh
+pip install -r requirements.txt
+```
 
 ## Usage
 This repo has contained ..., if you want to ... by yourself, check ...
