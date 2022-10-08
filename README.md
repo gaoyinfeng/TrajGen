@@ -4,7 +4,7 @@ Implementation of the [TrajGen][website_arxiv] and I-SIM based on [Interaction D
 [website_arxiv]: https://sites.google.com/view/trajgen/
 [website_INTER]: http://www.interaction-dataset.com/
 
-<img width="50%" src="https://github.com/gaoyinfeng/TrajGen/blob/main/gif/trajgen_1.gif"> <img width="50%" src="https://github.com/gaoyinfeng/TrajGen/blob/main/gif/trajgen_2.gif">
+<img width="48%" src="https://github.com/gaoyinfeng/TrajGen/blob/main/gif/trajgen_1.gif"> <img width="48%" src="https://github.com/gaoyinfeng/TrajGen/blob/main/gif/trajgen_2.gif">
 
 If you find this code useful, please reference in your paper:
 
