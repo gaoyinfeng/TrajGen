@@ -1,5 +1,5 @@
 # TrajGen: Generating Realistic and Diverse Trajectories With Reactive and Feasible Agent Behaviors for Autonomous Driving
-Implementation of the [TrajGen][website_arxiv] and I-SIM based on Interaction Dataset[website_INTER]. TrajGen is a two-stage trajectory generation framework, which can capture realistic and diverse behaviors directly from human demonstration.
+Implementation of the [TrajGen][website_arxiv] and I-SIM based on [Interaction Dataset][website_INTER]. TrajGen is a two-stage trajectory generation framework, which can capture realistic and diverse behaviors directly from human demonstration.
 
 [website_arxiv]: https://sites.google.com/view/trajgen/
 [website_INTER]: http://www.interaction-dataset.com/
