@@ -4,8 +4,12 @@ Implementation of the [TrajGen][website_arxiv] and I-SIM based on [Interaction D
 [website_arxiv]: https://sites.google.com/view/trajgen/
 [website_INTER]: http://www.interaction-dataset.com/
 
-<p align="center">
-<img width="90%" src="https://lh4.googleusercontent.com/mlpMTC__xIZz3sahf6U5pDVbKigOPW9H01S7gbTwsg8_l-jrVT_hTN8WdoGPS7jbHJ6HZkPkmceI_BBolY7B81SewH_KKJ1GzHnkHz0rcXKJTdW4n2IL1u3TN9e8dVKRwA=w1280">
+<p align="left">
+<img width="45%" src="https://lh4.googleusercontent.com/mlpMTC__xIZz3sahf6U5pDVbKigOPW9H01S7gbTwsg8_l-jrVT_hTN8WdoGPS7jbHJ6HZkPkmceI_BBolY7B81SewH_KKJ1GzHnkHz0rcXKJTdW4n2IL1u3TN9e8dVKRwA=w1280">
+</p>
+
+<p align="right">
+<img width="45%" src="https://lh4.googleusercontent.com/mlpMTC__xIZz3sahf6U5pDVbKigOPW9H01S7gbTwsg8_l-jrVT_hTN8WdoGPS7jbHJ6HZkPkmceI_BBolY7B81SewH_KKJ1GzHnkHz0rcXKJTdW4n2IL1u3TN9e8dVKRwA=w1280">
 </p>
 
 
