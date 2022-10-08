@@ -67,7 +67,15 @@ Train Trajgen:
 ```sh
 python python/interaction_rl/main.py --port=5557
 ```
+Visualize training curves:
+```sh
+python python/interaction_rl/results/rl/$ports$/visualize_results.py
+```
 Test Trajgen:
 ```sh
 python python/interaction_rl/main.py --port=5557 --test
+```
+Print test results:
+```sh
+python python/interaction_rl/results/test/read_data.py
 ```
