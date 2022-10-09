@@ -78,7 +78,7 @@ python python/interaction_rl/main.py --port=5557 --test
 ```
 Print test results:
 ```sh
-python python/interaction_rl/results/test/read_data.py
+python python/interaction_rl/results/test/print_results.py
 
 ```
 
