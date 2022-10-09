@@ -38,7 +38,7 @@ docker run -it -e DISPLAY -p 5557-5561:5557-5561 -v $path for TrajGen$:/home/dev
 Update dependencies:
 ```sh
 sudo apt update
-sudo apt install python-tk #python2
+sudo apt install python-tk
 ```
 Check wheather I-SIM can properly run:
 ```sh
