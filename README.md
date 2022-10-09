@@ -24,12 +24,13 @@ If you find this code useful, please reference in your paper:
 ## Manual Instructions
 To properly run TrajGen on your system, you should clone this repository, and follow the instruction below to install the dependencies for both I-SIM and TrajGen.
 ### 1. Dependencies for I-SIM simulator
-Since the HD maps of Interaction Dataset uses the format of Lanelet2, you needs to build Lanelet2 Docker first:
+Since the HD maps of Interaction Dataset uses the format of Lanelet2, you need to build Lanelet2 Docker first, we provide a modified version of [Lanelet2][website_lanelet2] in our repo:
 ```sh
-git clone https://github.com/fzi-forschungszentrum-informatik/Lanelet2
 cd Lanelet2
 docker build -t isim .
 ```
+[website_lanelet2]: https://github.com/fzi-forschungszentrum-informatik/Lanelet2
+
 After build, run docker container and do port mapping, we use port 5557-5561 as example:
 ```sh
 docker run -it -e DISPLAY -p 5557-5561:5557-5561 -v $path for TrajGen$:/home/developer/workspace/interaction-dataset-master -v /tmp/.X11-unix:/tmp/.X11-unix --user="$(id --user):$(id --group)" --name isim57 isim:latest bash
