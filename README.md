@@ -64,7 +64,7 @@ docker exec -it isim57 bash
 cd interaction-dataset-master/python/interaction_gym/
 python interaction_env.py --port=5557
 ```
-Train Trajgen:
+Train TrajGen:
 ```sh
 python python/interaction_rl/main.py --port=5557
 ```
@@ -72,7 +72,7 @@ Visualize training curves:
 ```sh
 python python/interaction_rl/results/rl/$ports$/visualize_results.py
 ```
-Test Trajgen:
+Test TrajGen:
 ```sh
 python python/interaction_rl/main.py --port=5557 --test
 ```
