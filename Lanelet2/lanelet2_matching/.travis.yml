@@ -1,0 +1,32 @@
+# This config file for Travis CI utilizes https://github.com/coincar-sim/mrt_cmake_modules_ci/ package.
+sudo: required
+dist: xenial
+services:
+  - docker
+language: cpp
+compiler: gcc
+cache: ccache
+
+notifications:
+  email:
+    recipients:
+      # - user@email.com
+
+matrix:
+  include:
+    - env:
+      - UBUNTU_VERSION=xenial
+      - ROS_DISTRO=kinetic
+    - env:
+      - UBUNTU_VERSION=bionic
+      - ROS_DISTRO=melodic
+
+env:
+  global:
+    - DEPENDENCIES_ROSINSTALL=dependencies.rosinstall
+
+before_script:
+  - git clone -q https://github.com/coincar-sim/mrt_cmake_modules_ci.git .mrt_cmake_modules_ci
+
+script:
+  - .mrt_cmake_modules_ci/travis.sh

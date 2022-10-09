@@ -1,0 +1,7 @@
+# Source dependencies (provided for the travis ci build)
+- git:
+    local-name: lanelet2
+    uri: https://github.com/fzi-forschungszentrum-informatik/Lanelet2.git
+- git:
+    local-name: mrt_cmake_modules
+    uri: https://github.com/KIT-MRT/mrt_cmake_modules.git
