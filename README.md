@@ -79,4 +79,12 @@ python python/interaction_rl/main.py --port=5557 --test
 Print test results:
 ```sh
 python python/interaction_rl/results/test/read_data.py
+
 ```
+
+
+## Acknowledgement
+We appreciate the following github repos for their valuable code base or dataset:
+https://github.com/fzi-forschungszentrum-informatik/Lanelet2
+https://github.com/interaction-dataset/interaction-dataset
+
