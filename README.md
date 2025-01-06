@@ -83,6 +83,22 @@ python python/interaction_rl/results/test/print_results.py
 ```
 
 
+## Citation
+If you find TrajGen useful in your research or applications, please consider giving us a star &#127775; and citing it by the following BibTeX entry.
+
+```BibTeX
+@article{zhang2022trajgen,
+  author={Zhang, Qichao and Gao, Yinfeng and Zhang, Yikang and Guo, Youtian and Ding, Dawei and Wang, Yunpeng and Sun, Peng and Zhao, Dongbin},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={TrajGen: Generating Realistic and Diverse Trajectories With Reactive and Feasible Agent Behaviors for Autonomous Driving}, 
+  year={2022},
+  volume={23},
+  number={12},
+  pages={24474-24487},
+  doi={10.1109/TITS.2022.3202185}}
+```
+
+
 ## Acknowledgement
 We appreciate the following github repos for their valuable code base or dataset:
 
