@@ -9,17 +9,6 @@ Implementation of the [TrajGen][website_arxiv] and I-SIM simulator based on [Int
 - [Project website](https://sites.google.com/view/trajgen/)
 - [Research paper](https://arxiv.org/pdf/2203.16792.pdf)
 
-If you find this code useful, please reference in your paper:
-
-```
-@article{zhang2022trajgen,
-  title={TrajGen: Generating Realistic and Diverse Trajectories With Reactive and Feasible Agent Behaviors for Autonomous Driving},
-  author={Zhang, Qichao and Gao, Yinfeng and Zhang, Yikang and Guo, Youtian and Ding, Dawei and Wang, Yunpeng and Sun, Peng and Zhao, Dongbin},
-  journal={IEEE Transactions on Intelligent Transportation Systems},
-  year={2022},
-  doi={10.1109/TITS.2022.3202185}
-}
-```
 
 ## Manual Instructions
 To properly run TrajGen on your system, you should clone this repository, and follow the instruction below to install the dependencies for both I-SIM and TrajGen.
